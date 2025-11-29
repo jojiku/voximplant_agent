@@ -32,6 +32,15 @@
 
 1. **Clone the repository**
 
+2. Start the agent:
+gunicorn main:app -w 1 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
+
+3. Start the tunnel:
+lt --port 8000 --subdomain rude-bees-cheat
+
+4. Make a phone call using test phone taken on voximplant
+
+
 
 
 ## 📝 License
