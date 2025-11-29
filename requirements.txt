@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+gunicorn
+python-dotenv
+langchain-classic
+langchain-openai
+chroma-hnswlib
+chromadb
+langchain-text-splitters
+tiktoken
+langchain-community
